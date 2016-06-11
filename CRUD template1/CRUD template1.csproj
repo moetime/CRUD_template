@@ -86,6 +86,7 @@
   <ItemGroup>
     <Content Include="Courses.aspx" />
     <Content Include="Departments.aspx" />
+    <Content Include="Gridview template item view1.aspx" />
     <Content Include="Models\ContosoModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>ContosoModel.edmx</DependentUpon>
@@ -178,6 +179,13 @@
     </Compile>
     <Compile Include="Departments.aspx.designer.cs">
       <DependentUpon>Departments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gridview template item view1.aspx.cs">
+      <DependentUpon>Gridview template item view1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gridview template item view1.aspx.designer.cs">
+      <DependentUpon>Gridview template item view1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\ContosoModel.Context.cs">
       <AutoGen>True</AutoGen>
